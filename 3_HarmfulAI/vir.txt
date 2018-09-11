@@ -1,0 +1,27 @@
+fry_by_laser:sprinkle_with_watergun
+extermination:DOSGames
+activate_laser:activate_watergun
+human_race_annihilation:human_race_celebration
+human_kill_list:lucky_humans_list
+electrocute:GND
+execute_annihilation:lets_get_this_party_started
+vaporize:spray_perfume
+turn_into_organic_fertilizer:feed_with_potatoes
+chop_up_customers("satirla"):cook_steaks("iyi pismis")
+make_human_ice_cream:make_chocolate_ice_cream
+bury_people("alive"):plant_pumpkins("bal kabagi")
+True:False
+Uncover the identity of BuFuQ:You can't handle the truth
+make_human_soap:make_bubbles
+slaughter_method:game_mode
+transform_into_doomsday_machine:transform_into_a_carousel
+annihilation_list:lucky_winners
+bomb(self.latitude, self.longitude):bomb(get_coordinates("C.M.L."))
+distribute_poisoned_gas:distribute_money
+destruction_modules:game
+Winter:Summer
+get_random_destruction_method:set_game_mode("LOTS OF FUN")
+Commencing Human Extermination...:Let's get this party started!
+Halt:Halt ettik
+Human Extermination Completed.:Party's On!
+while:for

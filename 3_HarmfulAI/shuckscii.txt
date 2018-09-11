@@ -1,0 +1,94 @@
+ 	7F	Space
+!	7E	Exclamation mark
+"	7D	Double quotes (or speech marks)
+#	7C	Number
+$	7B	Dollar
+%	7A	Procenttecken
+&	79	Ampersand
+'	78	Single quote
+(	77	Open parenthesis (or open bracket)
+)	76	Close parenthesis (or close bracket)
+*	75	Asterisk
++	74	Plus
+,	73	Comma
+-	72	Hyphen
+.	71	Period, dot or full stop
+/	70	Slash or divide
+0	6F	Zero
+1	6E	One
+2	6D	Two
+3	6C	Three
+4	6B	Four
+5	6A	Five
+6	69	Six
+7	68	Seven
+8	67	Eight
+9	66	Nine
+:	65	Colon
+;	64	Semicolon
+<	63	Less than (or open angled bracket)
+=	62	Equals
+>	61	Greater than (or close angled bracket)
+?	60	Question mark
+@	5F	At symbol
+A	5E	Uppercase A
+B	5D	Uppercase B
+C	5C	Uppercase C
+D	5B	Uppercase D
+E	5A	Uppercase E
+F	59	Uppercase F
+G	58	Uppercase G
+H	57	Uppercase H
+I	56	Uppercase I
+J	55	Uppercase J
+K	54	Uppercase K
+L	53	Uppercase L
+M	52	Uppercase M
+N	51	Uppercase N
+O	50	Uppercase O
+P	4F	Uppercase P
+Q	4E	Uppercase Q
+R	4D	Uppercase R
+S	4C	Uppercase S
+T	4B	Uppercase T
+U	4A	Uppercase U
+V	49	Uppercase V
+W	48	Uppercase W
+X	47	Uppercase X
+Y	46	Uppercase Y
+Z	45	Uppercase Z
+[	44	Opening bracket
+\	43	Backslash
+]	42	Closing bracket
+^	41	Caret - circumflex
+_	40	Underscore
+a	3E	Lowercase a
+b	3D	Lowercase b
+c	3C	Lowercase c
+d	3B	Lowercase d
+e	3A	Lowercase e
+f	39	Lowercase f
+g	38	Lowercase g
+h	37	Lowercase h
+i	36	Lowercase i
+j	35	Lowercase j
+k	34	Lowercase k
+l	33	Lowercase l
+m	32	Lowercase m
+n	31	Lowercase n
+o	30	Lowercase o
+p	2F	Lowercase p
+q	2E	Lowercase q
+r	2D	Lowercase r
+s	2C	Lowercase s
+t	2B	Lowercase t
+u	2A	Lowercase u
+v	29	Lowercase v
+w	28	Lowercase w
+x	27	Lowercase x
+y	26	Lowercase y
+z	25	Lowercase z
+{	24	Opening brace
+|	23	Vertical bar
+}	22	Closing brace
+~	21	Equivalency sign - tilde
