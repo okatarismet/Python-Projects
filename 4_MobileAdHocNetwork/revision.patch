@@ -1,0 +1,59 @@
+3c3,8
+< # completed
+---
+> #
+> 
+> 
+> 
+> 
+> 
+9c14,15
+< Packet_size = int(sys.argv[1])
+---
+> Packet_size = float(sys.argv[1]) # ====REVISED===== changed int to float
+> 
+46c52
+<     battery_of_node.setdefault(name_of_node, int(battery))
+---
+>     battery_of_node.setdefault(name_of_node, float(battery)) # ====REVISED===== changed int to float
+53c59
+<     battery_of_node.update({name_of_node: int(battery)})
+---
+>     battery_of_node.update({name_of_node: float(battery)}) # ====REVISED===== changed int to float
+69c75
+<     at = math.sqrt(int(math.fabs(cordinates[first_node][0] - cordinates[last_node][0])) ** 2 + int(math.fabs(cordinates[first_node][1] - cordinates[last_node][1])) ** 2)
+---
+>     at = math.sqrt(float(math.fabs(cordinates[first_node][0] - cordinates[last_node][0])) ** 2 + float(math.fabs(cordinates[first_node][1] - cordinates[last_node][1])) ** 2) # ====REVISED===== changed int to float
+74,75d79
+<     if nodes_neighbours[name_of_node] in routes: # herhalde sikinti burada
+<         nodes_neighbours[name_of_node]
+90c94
+<         if nodes_neighbours[name_of_node] not in routes:
+---
+>         if nodes_neighbours[name_of_node][0] not in routes:
+91a96
+> 
+139,140c144,145
+<                     command_list[3] = [int(x) for x in command_list[3].split(";")]
+<                     command_list[4] = [int(x) for x in command_list[4].split(";")]
+---
+>                     command_list[3] = [float(x) for x in command_list[3].split(";")] # ====REVISED===== changed int to float
+>                     command_list[4] = [float(x) for x in command_list[4].split(";")] # ====REVISED===== changed int to float
+145c150
+<                     command_list[3] = [int(x) for x in command_list[3].split(";")]
+---
+>                     command_list[3] = [float(x) for x in command_list[3].split(";")] #  ====REVISED===== changed int to float
+156c161,162
+< while total_size != 0:
+---
+> route_control = 1
+> while total_size != 0 and route_control==1:
+175a182
+>             route_control = 0
+189,190c196,198
+<     print("\tPACKET " + str(packet_number) + " HAS BEEN SENT")
+<     print("\tREMAINING DATA SIZE: " + str(total_size) + " BYTE")
+---
+>     if route_control != 0:
+>         print("\tPACKET " + str(packet_number) + " HAS BEEN SENT")
+>         print("\tREMAINING DATA SIZE: " + str(round(total_size,1)) + " BYTE") # ====REVISED===== added an round function
